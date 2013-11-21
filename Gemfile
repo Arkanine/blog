@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
@@ -27,5 +27,6 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rails_12factor'
 end
 
