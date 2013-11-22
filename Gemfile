@@ -6,6 +6,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :doc do
   gem 'sdoc', require: false
@@ -20,6 +21,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
