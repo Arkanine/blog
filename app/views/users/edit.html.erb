@@ -1,10 +1,10 @@
 <% provide(:title, "Edit user") %>
 <h1>Update your profile</h1>
 
-<div class="row">
-  <div id="update" class="span6 offset3">
+<div id="update" class="row">
+  <div class="span6 offset3">
     <%= form_for(@user) do |f| %>
-        <%= render 'shared/error_messages' %>
+        <%= render 'shared/error_messages', object: f.object %>
 
         <%= f.label :name %>
         <%= f.text_field :name, class: "form-control",  placeholder: "Username" %><br/>
@@ -20,9 +20,9 @@
 
         <%= f.submit "Update my account", class: "btn btn-primary" %>
     <% end %>
-      <p id="avatar" >
+      <div id="avatar" >
         <%= gravatar_for @user %>
         <a href="http://gravatar.com/emails">change</a>
-      </p>
+      </div>
   </div>
 </div>

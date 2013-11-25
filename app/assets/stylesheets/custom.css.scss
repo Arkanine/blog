@@ -217,5 +217,51 @@ input {
   margin-left: 8%;
 }
 
+/* <-------------------------microposts-------------------------> */
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+
+  li {
+    padding: 4px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: $lightGray;
+  font-size: 0.9em;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+#create_post {
+  margin-left: 5%;
+}
+
+aside {
+  textarea {
+    height: 100px;
+    width: 400px;
+    padding-bottom: 20px;
+  }
+}
+
+.btn {
+  margin-top:10px;
+}
+
+.span8 h3 {
+  padding-left: 5%;
+}
+
+.pagin_posts {
+  margin-left: 8%;
+}
 
 
