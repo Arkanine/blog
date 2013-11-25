@@ -21,19 +21,18 @@ group :assets do
   gem 'uglifier', '>= 1.3.0'
 end
 
-group :development do
+group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
   gem 'annotate'
-  gem 'taps', :require => false
 end
 
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rspec-rails'
 end
 
-group :production, :staging do
-  gem 'pg'
+group :production do
+  gem 'pg', '0.12.2'
   gem 'rails_12factor'
 end
 
