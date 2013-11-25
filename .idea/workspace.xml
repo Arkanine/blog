@@ -38,7 +38,7 @@
     <file path="/microposts_controller.rb" changelist="e9d47853-2ef7-46a4-879d-8f9e6c72ed16" time="1385393195849" ignored="false" />
     <file path="/_user_info.html.erb" changelist="e9d47853-2ef7-46a4-879d-8f9e6c72ed16" time="1385388152410" ignored="false" />
     <file path="/_micropost_form.html.erb" changelist="e9d47853-2ef7-46a4-879d-8f9e6c72ed16" time="1385395791287" ignored="false" />
-    <file path="/_feed_item.html.erb" changelist="e9d47853-2ef7-46a4-879d-8f9e6c72ed16" time="1385405036935" ignored="false" />
+    <file path="/_feed_item.html.erb" changelist="e9d47853-2ef7-46a4-879d-8f9e6c72ed16" time="1385412867726" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="29" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
+            <state line="11" column="47" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
       <file leaf-file-name="_feed_item.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_feed_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="274" selection-end="274" vertical-scroll-proportion="0.18134715">
+            <state line="7" column="12" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18134715">
               <folding />
             </state>
           </provider>
@@ -927,14 +927,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="29" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0">
+        <state line="11" column="47" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_feed_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="274" selection-end="274" vertical-scroll-proportion="0.18134715">
+        <state line="7" column="12" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18134715">
           <folding />
         </state>
       </provider>
