@@ -10,6 +10,8 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave'
+gem 'rmagick'
 
 group :doc do
   gem 'sdoc', require: false
