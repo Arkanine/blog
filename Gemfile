@@ -11,7 +11,7 @@ gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'carrierwave'
-gem 'rmagick'
+
 
 group :doc do
   gem 'sdoc', require: false
@@ -34,7 +34,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
   gem 'rails_12factor'
 end
 
