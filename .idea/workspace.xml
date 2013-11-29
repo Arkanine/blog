@@ -119,7 +119,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="51" selection-start="157" selection-end="157" vertical-scroll-proportion="0.07462686">
+            <state line="29" column="51" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.72139305">
               <folding />
             </state>
           </provider>
@@ -970,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="157" selection-end="157" vertical-scroll-proportion="0.07462686">
+        <state line="29" column="51" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.72139305">
           <folding />
         </state>
       </provider>
