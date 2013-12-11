@@ -69,14 +69,14 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: $lightGray;
+  color: #428BCA;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: $grayMediumLight;
+    color: #79A0D5;
     text-decoration: none;
   }
 }
@@ -207,12 +207,6 @@ input {
   }
 }
 
-#users_form {
-  font-size: 1.2em;
-  color: black;
-  padding-left: 3%;
-}
-
 .paginate {
   margin-left: 8%;
 }
@@ -230,10 +224,11 @@ input {
 }
 .content {
   display: block;
+  font-size: 1.2em;
 }
 .timestamp {
   color: $lightGray;
-  font-size: 0.9em;
+
 }
 .gravatar {
   float: left;
@@ -264,8 +259,5 @@ aside {
   margin-left: 8%;
 }
 
-#user_face {
-
-}
 
 
