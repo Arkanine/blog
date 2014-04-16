@@ -12,6 +12,7 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'carrierwave'
 gem 'disqus'
+gem 'ancestry'
 
 
 group :doc do

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131126170904) do
+ActiveRecord::Schema.define(version: 20140101164809) do
 
   create_table "microposts", force: true do |t|
     t.string   "content"
@@ -19,7 +19,10 @@ ActiveRecord::Schema.define(version: 20131126170904) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "image"
+    t.string   "ancestry"
   end
+
+  add_index "microposts", ["ancestry"], name: "index_microposts_on_ancestry"
 
   create_table "users", force: true do |t|
     t.string   "name"
